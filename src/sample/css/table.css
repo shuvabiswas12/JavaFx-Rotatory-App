@@ -1,0 +1,63 @@
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(#d6eaf8 0%, #d6eaf8 100%);
+}
+
+.table-view .column-header-background .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: #dc121c;
+    -fx-font-size: 1.3em;
+
+}
+
+.table-column {
+    -fx-alignment: CENTER-LEFT;
+    -fx-font-size: 1.2em;
+    -fx-padding: 5 5 5 5;
+    -fx-cursor: hand;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+/* Let TreeTableView rows look like TableView rows  */
+.tree-table-row-cell {
+    -fx-background-color: -fx-table-cell-border-color, -fx-background;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+/* Let odd rows look different */
+.tree-table-row-cell:odd {
+    -fx-background: -fx-control-inner-background-alt;
+}
+
+/* Selected when control is focused */
+.tree-table-view:focused > .virtual-flow > .clipped-container > .sheet > .tree-table-row-cell:selected {
+    -fx-background: #4bdce2 /*-fx-selection-bar*/;
+    -fx-table-cell-border-color: derive(#4bdce2 /*-fx-selection-bar*/, 20%);
+}
+
+/* Selected when control is not focused */
+.tree-table-row-cell:filled:selected {
+    -fx-background: -fx-selection-bar-non-focused;
+    -fx-table-cell-border-color: derive(-fx-selection-bar-non-focused, 20%);
+}
+
+.tree-table-row-cell:hover {
+    -fx-background-color: #f9e79f;
+}
+
+.tree-table-row-cell:pressed {
+    -fx-background-color: #ffa247;
+}
+
+/*.tree-table-row-cell:selected {
+    -fx-background-color: #4bdce2;
+}*/
+
+

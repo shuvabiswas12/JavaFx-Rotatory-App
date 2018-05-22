@@ -1,0 +1,51 @@
+.root {
+    -fx-background-color: #ecf0f1;
+}
+
+.text-in {
+    -fx-background-color: #fef9e7;
+    -fx-border-color: #1a5276;
+    -fx-border-width: 2px 2px 2px 2px;
+}
+
+.date-picker {
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: red;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #1a5276;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #85929e;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+}
+
+.button:pressed {
+    -fx-background-color: #f5b041;
+    -fx-cursor: hand;
+}
+
+.title-bar {
+    -fx-background-color: #5dade2;
+}
+
+.head-text {
+    -fx-font-size: 2.3em;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-fill: #f9f3f9;
+}
+
+.img {
+    -fx-background-color: transparent;
+}
+
+.img:hover {
+    -fx-background-color: #f9f3f9;
+}

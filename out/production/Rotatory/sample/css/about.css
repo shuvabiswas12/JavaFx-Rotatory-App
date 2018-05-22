@@ -1,0 +1,15 @@
+.text-main {
+    -fx-font-size: 2em;
+    -fx-font: Roboto;
+}
+
+.text-other {
+    -fx-font-size: 1.2em;
+    -fx-font: Roboto;
+}
+
+.box {
+    -fx-border-width: 1px solid;
+    -fx-border-color: #ffa247;
+
+}

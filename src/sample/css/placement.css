@@ -1,0 +1,85 @@
+.root {
+    -fx-background-color: #ecf0f1;
+}
+
+.tab {
+    -fx-background-color: -fx-primary;
+    -fx-pref-width: 300;
+    -fx-pref-height: 43;
+}
+
+.tab-header-background {
+    /*-fx-background-color: -fx-primary;
+    -fx-background-color: #5dade2;*/
+    -fx-background-color: white;
+}
+
+.tab .tab-label {
+    -fx-font-family: Roboto;
+    -fx-font-size: 1.6em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.tab:selected {
+    -fx-background-color: #5dade2;
+
+}
+
+.all-box {
+    /*-fx-background-color: #acdbe2;*/
+    -fx-background-color: transparent;
+    -fx-border-width: 0 2px 2px 2px;
+    -fx-border-color: #5dade2;
+
+}
+
+.one-box {
+    /*-fx-background-color: #acdbe2;*/
+    -fx-background-color: transparent;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: #5dade2;
+
+}
+
+.internal-box {
+    -fx-background-color: #d35400;
+    /*-fx-background-color: #f39c12;*/
+}
+
+.text-box-head {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.8em;
+}
+
+/*.date {
+    -fx-background-color: transparent;
+    -fx-border-color: #1a5276;
+    -fx-border-width: 2px 2px 2px 2px;
+}*/
+
+.text-section-name {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}
+
+.text-date {
+    -fx-font-size: 1.2em;
+}
+
+.button {
+    -fx-background-color: #1a5276;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #85929e;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #f5b041;
+    -fx-cursor: hand;
+}
+

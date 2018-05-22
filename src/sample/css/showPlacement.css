@@ -1,0 +1,82 @@
+.root {
+    -fx-background-color: #ecf0f1;
+}
+
+.tab:selected {
+    -fx-background-color: #5dade2;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #f9f3f9;
+}
+
+.tab {
+    -fx-background-color: -fx-primary;
+    -fx-pref-width: 200;
+    -fx-pref-height: 43;
+}
+
+.tab-header-background {
+    /*-fx-background-color: -fx-primary;
+    -fx-background-color: #5dade2;*/
+    -fx-background-color: white;
+}
+
+.tab .tab-label {
+    -fx-font-family: Roboto;
+    -fx-font-size: 1.6em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.header-box {
+    -fx-background-color: #d35400;
+}
+
+.header-box-text {
+    -fx-fill: white;
+    -fx-font-size: 16px;
+}
+
+.internal-box {
+    -fx-background-color: transparent;
+    -fx-border-color: #0c14ff;
+    -fx-border-width: 1px dashed;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-head {
+    -fx-font-size: 1.4em;
+    -fx-font: roboto;
+    -fx-font-weight: bold;
+    -fx-fill: #0c14ff;
+}
+
+.text-date {
+    -fx-font-weight: bold;
+    -fx-font-size: 1em;
+}
+
+.button {
+    -fx-background-color: #1a5276;
+    -fx-cursor: hand;
+    -fx-text-fill: #f9f3f9;
+    -fx-font-size: 1.4em;
+}
+
+.button:hover {
+    -fx-background-color: #85929e;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #f5b041;
+    -fx-cursor: hand;
+}
+
+.head-text {
+    -fx-fill: #1a5276;
+}

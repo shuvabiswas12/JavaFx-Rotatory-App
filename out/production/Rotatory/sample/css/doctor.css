@@ -1,0 +1,47 @@
+.root {
+    -fx-background-color: white;
+}
+
+.box {
+    -fx-background-color: #5dade2;
+    -fx-cursor: hand;
+}
+
+.box:hover {
+    -fx-background-color: #85929e;
+    -fx-cursor: hand;
+}
+
+.box:pressed {
+    -fx-background-color: #f5b041;
+    -fx-cursor: hand;
+}
+
+.text1 {
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: black;
+}
+
+.text {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.text:pressed {
+    -fx-background-color: #f5b041;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #85929e;
+}
+
+.upper-button {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.upper-button:hover {
+    -fx-background-color: #f5b041;
+}
+
+.upper-button:pressed {
+    -fx-background-color: #85929e;
+}

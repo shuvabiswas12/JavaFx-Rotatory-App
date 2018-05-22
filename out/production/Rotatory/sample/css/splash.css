@@ -1,0 +1,17 @@
+.root {
+    -fx-background-color:  #5499c7  ;
+}
+
+.head-text {
+    -fx-font-size: 2.3em;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-fill: #f9f3f9;
+}
+
+.inner-text {
+    -fx-font-size: 14px;
+    -fx-font-family: Roboto;
+    -fx-fill: #f9f3f9;
+}
+

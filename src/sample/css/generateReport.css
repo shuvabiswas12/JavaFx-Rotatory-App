@@ -1,0 +1,53 @@
+.root {
+    -fx-background-color: #ecf0f1;
+}
+
+.text-head {
+    -fx-fill: White;
+    -fx-font-size: 2em;
+    -fx-font-weight: bold;
+    -fx-font-family: Roboto;
+}
+
+.text-body {
+    -fx-font-size: 1.8em;
+    -fx-font-weight: bold;
+    -fx-font-family: Roboto;
+}
+
+.hbox {
+    -fx-background-color: #5dade2;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #1a5276;
+    -fx-border-width: 1px 1px 1px 1px;
+}
+
+.button {
+    -fx-background-color: #1a5276;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 1.4em;
+}
+
+.button:hover {
+    -fx-background-color: #85929e;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #f5b041;
+    -fx-cursor: hand;
+}
+
+
+
+.img {
+    -fx-background-color: transparent;
+}
+
+.img:hover {
+    -fx-background-color: #f9f3f9;
+}

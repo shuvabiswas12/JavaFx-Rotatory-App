@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="674.0" styleClass="root" stylesheets="@../css/splash.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SplashController">
+   <children>
+      <Text layoutX="298.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="head-text" text="Rotatory Internship Program" />
+      <ImageView fitHeight="104.0" fitWidth="151.0" layoutX="543.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Final%20LOGO%20BBMH.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="73.0" layoutY="218.0" rotate="90.0" scaleX="2.0" startX="-100.0" stroke="#c64110" strokeWidth="10.0" AnchorPane.leftAnchor="-32.0" AnchorPane.rightAnchor="496.0" />
+      <Line endX="100.0" layoutX="329.0" layoutY="372.0" scaleX="3.1" startX="-100.0" stroke="#c64110" strokeWidth="10.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Line>
+      <Text layoutX="434.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-weight: bold;" styleClass="fn-30" />
+      <Text layoutX="89.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="Version 1.0" />
+      <Label fx:id="loadingId" layoutX="443.0" layoutY="289.0" prefHeight="21.0" prefWidth="81.0" styleClass="textfill" text="Loading">
+         <font>
+            <Font name="Blackadder ITC" size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="224.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="\@2018 Application Help Solution  Email: shuvabiswas12@yahoo.com" />
+      <Text layoutX="89.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="May 7, 2018" />
+      <ImageView fitHeight="18.0" fitWidth="251.0" layoutX="443.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/loading.GIF" />
+         </image>
+      </ImageView>
+      <Text layoutX="414.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="Bangabandhu Memorial Hospital, CTG" />
+      <ImageView fitHeight="104.0" fitWidth="118.0" layoutX="97.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Image%20USTC%20Logo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

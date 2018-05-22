@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="rootPane" prefHeight="382.0" prefWidth="600.0" stylesheets="@../css/load.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RecordController">
+    <children>
+        <AnchorPane onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ecf0f1;">
+            <children>
+                <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <AnchorPane prefHeight="58.0" prefWidth="600.0" styleClass="title-bar">
+                            <children>
+                                <Text layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="head-text" text="RECORDS" />
+                                <HBox layoutX="552.0" layoutY="12.0" onMouseClicked="#clicked" styleClass="img">
+                                    <children>
+                                        <ImageView fitHeight="34.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../assests/icons8-delete-48.png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </HBox>
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </AnchorPane>
+                        <Separator prefWidth="200.0" />
+                        <TabPane tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
+                            <tabs>
+                                <Tab text="Export">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="291.0" prefWidth="600.0">
+                                            <children>
+                                                <HBox alignment="CENTER" layoutX="66.0" layoutY="56.0" spacing="10.0">
+                                                    <children>
+                                                        <TextField fx:id="pathTFId" prefHeight="43.0" prefWidth="369.0" promptText="Path">
+                                                            <font>
+                                                                <Font size="14.0" />
+                                                            </font>
+                                                        </TextField>
+                                                        <JFXButton fx:id="pathBtn" buttonType="RAISED" prefHeight="36.0" prefWidth="101.0" text="Path" textFill="WHITE">
+                                                            <font>
+                                                                <Font name="Roboto" size="14.0" />
+                                                            </font>
+                                                            <cursor>
+                                                                <Cursor fx:constant="HAND" />
+                                                            </cursor>
+                                                        </JFXButton>
+                                                    </children>
+                                                </HBox>
+                                                <JFXButton fx:id="exportBtn" buttonType="RAISED" layoutX="238.0" layoutY="145.0" prefHeight="36.0" prefWidth="155.0" style="-fx-background-radius: 20px;" text="Export" textAlignment="CENTER" textFill="WHITE">
+                                                    <font>
+                                                        <Font name="Roboto" size="14.0" />
+                                                    </font>
+                                                    <cursor>
+                                                        <Cursor fx:constant="HAND" />
+                                                    </cursor>
+                                                </JFXButton>
+                                    <VBox layoutX="12.0" layoutY="240.0">
+                                       <children>
+                                          <Separator prefWidth="580.0" />
+                                          <HBox>
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                                                   <children>
+                                                                  <Text fx:id="totalInternsTF" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="internal_text_2" text="Total Intern's: 127600" HBox.hgrow="ALWAYS" />
+                                                   </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                                                   <children>
+                                                      <Separator orientation="VERTICAL" prefHeight="34.0" prefWidth="6.0" HBox.hgrow="ALWAYS" />
+                                                   </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                                                   <children>
+                                                      <Text fx:id="totalSessionTF" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="internal_text_2" text="Total Sessions: 12345" HBox.hgrow="ALWAYS" />
+                                                   </children>
+                                                   <HBox.margin>
+                                                      <Insets right="5.0" />
+                                                   </HBox.margin>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                                <Tab text="Import">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <HBox alignment="CENTER" layoutX="67.0" layoutY="64.0" spacing="10.0">
+                                                    <children>
+                                                        <TextField fx:id="fileTf" prefHeight="43.0" prefWidth="369.0" promptText="File">
+                                                            <font>
+                                                                <Font size="14.0" />
+                                                            </font>
+                                                        </TextField>
+                                                        <JFXButton fx:id="chooseFilBtn" buttonType="RAISED" prefHeight="36.0" prefWidth="101.0" text="Choose File" textFill="WHITE">
+                                                            <font>
+                                                                <Font name="Roboto" size="14.0" />
+                                                            </font>
+                                                            <cursor>
+                                                                <Cursor fx:constant="HAND" />
+                                                            </cursor>
+                                                        </JFXButton>
+                                                    </children>
+                                                </HBox>
+                                                <JFXButton fx:id="importBtn" buttonType="RAISED" layoutX="234.0" layoutY="155.0" prefHeight="36.0" prefWidth="155.0" style="-fx-background-radius: 20px;" text="Import" textAlignment="CENTER" textFill="WHITE">
+                                                    <font>
+                                                        <Font name="Roboto" size="14.0" />
+                                                    </font>
+                                                    <cursor>
+                                                        <Cursor fx:constant="HAND" />
+                                                    </cursor>
+                                                </JFXButton>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                            </tabs>
+                        </TabPane>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

@@ -1,0 +1,58 @@
+
+.root {
+    -fx-background-color: white;
+    -fx-border-width: 2px;
+}
+
+.text-in {
+    -fx-background-color: #fef9e7;
+    -fx-border-color: #1a5276;
+    -fx-border-width: 2px 2px 2px 2px;
+}
+
+.date-picker {
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: red;
+    -fx-font-size: 16px;
+}
+
+.button {
+    -fx-background-color: #1a5276;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #85929e;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #f5b041;
+    -fx-cursor: hand;
+}
+
+.title-bar {
+    -fx-background-color: #5dade2;
+}
+
+.head-text {
+    -fx-font-size: 2.3em;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-fill: #f9f3f9;
+}
+
+.inside-text {
+    -fx-font-size: 2.3em;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-fill: #0c14ff;
+}
+
+.img {
+    -fx-background-color: transparent;
+}
+
+.img:hover {
+    -fx-background-color: #f9f3f9;
+}

@@ -1,0 +1,26 @@
+.root {
+    -fx-background-color: white;
+}
+
+.sidebar {
+    -fx-background-color: #5dade2;
+}
+
+.boxButton {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.boxButton:hover {
+    -fx-background-color: #85929e;
+    -fx-cursor: hand;
+    -fx-border-color: #f5b041;
+    -fx-border-width: 0 0 0 5px;
+}
+
+.boxButton:pressed {
+    -fx-background-color: #f5b041;
+    -fx-cursor: hand;
+    -fx-border-color: #85929e;
+    -fx-border-width: 0 0 0 5px;
+}

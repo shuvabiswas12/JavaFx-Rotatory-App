@@ -1,0 +1,63 @@
+
+.main-bg {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 50px;
+
+}
+
+.head-text {
+    -fx-font-size: 2.3em;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-fill: #f9f3f9;
+}
+
+.title-bar {
+    -fx-background-color: #5dade2;
+}
+
+.internal_text {
+    -fx-font-size: 2.3em;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-fill: #ffa247;
+}
+
+.text-field {
+    -fx-background-color: #fef9e7;
+    -fx-border-radius: 1px;
+    -fx-border-color: #1a5276;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+}
+
+.img {
+    -fx-background-color: transparent;
+}
+
+.img:hover {
+    -fx-background-color: #f9f3f9;
+}
+
+.internal_text_2 {
+    -fx-font-size: 1.7em;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-fill: #ffa247;
+}
+
+.button {
+    -fx-background-color: #1a5276;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #85929e;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #f5b041;
+    -fx-cursor: hand;
+}
+
