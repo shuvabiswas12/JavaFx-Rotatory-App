@@ -24,14 +24,14 @@
          </cursor>
       </Line>
       <Text layoutX="434.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-weight: bold;" styleClass="fn-30" />
-      <Text layoutX="89.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="Version 1.0" />
+      <Text layoutX="89.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="Version 1.1" />
       <Label fx:id="loadingId" layoutX="443.0" layoutY="289.0" prefHeight="21.0" prefWidth="81.0" styleClass="textfill" text="Loading">
          <font>
             <Font name="Blackadder ITC" size="24.0" />
          </font>
       </Label>
       <Text layoutX="224.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="\@2018 Application Help Solution  Email: shuvabiswas12@yahoo.com" />
-      <Text layoutX="89.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="May 7, 2018" />
+      <Text layoutX="89.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inner-text" text="May 26, 2018" />
       <ImageView fitHeight="18.0" fitWidth="251.0" layoutX="443.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assests/loading.GIF" />

@@ -22,6 +22,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.controlsfx.control.Notifications;
+import sample.Lazy;
 import sample.database.Const;
 import sample.database.DatabaseHandler;
 import sample.model.Doctor;
@@ -84,6 +85,7 @@ public class ReportController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
         databaseHandler = DatabaseHandler.getDBInstance();
+        //databaseHandler = Lazy.getDBHandler(); // this is an use of singleton pattern
         pathFinder = new PathFinder();
 
         // choose the dir and show this in text field

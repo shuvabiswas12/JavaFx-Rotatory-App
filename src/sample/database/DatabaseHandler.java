@@ -298,7 +298,7 @@ public class DatabaseHandler extends Config {
     /**
      * Surgery update
      */
-    public void surgeryToDb(Surgery surgery, int id) throws SQLException, ClassNotFoundException {
+     public void surgeryToDb(Surgery surgery, int id) throws SQLException, ClassNotFoundException {
         String query = "UPDATE  " + Const.SURGERY_TABLE + " SET " + Const.GENERAL_SURGERY_START_1 + " = ? " + ", " + Const.GENERAL_SURGERY_END_1 + " = ? " + ", " + Const.GENERAL_SURGERY_START_2 + " = ? " + ", " + Const.GENERAL_SURGERY_END_2 + " = ? " + ", " + Const.ORTHOCASILTY_START + " = ? " + ", " + Const.ORTHOCASILTY_END + " = ? "
                 + ", " + Const.anaesthetia_start + " = ? " + ", " + Const.anaesthetia_end + " = ? " + ", " + Const.opthalmalogy_start + " = ? " + ", " + Const.opthalmalogy_end + " = ? " + ", " + Const.otolaryngoRhinology_start + " = ? " + ", " + Const.otolaryngoRhinology_end + " = ? "
                 + ", " + Const.paediatricSurgery_start + " = ? " + ", " + Const.paediatricSurgery_end + " = ? " + ", " + Const.urology_start + " = ? " + ", " + Const.urology_end + " = ? " + ", " + Const.radiology_start + " = ? " + ", " + Const.radiology_end + " = ? " + "WHERE " + Const.SURGERY_ID + " = ?";

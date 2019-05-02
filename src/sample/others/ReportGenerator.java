@@ -289,6 +289,7 @@ public class ReportGenerator {
             FileOutputStream outSheet = new FileOutputStream(path + "\\" + printDoctor.getId() + "-" + printDoctor.getName() + ".xls");
             workbook.write(outSheet);
             workbook.close(); // here is closed the workbook
+            outSheet.close();
 
         } else {
             // txt file generate in here ...
